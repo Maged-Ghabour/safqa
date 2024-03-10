@@ -397,14 +397,33 @@ a {
   align-items: center;
   flex-direction: column;
 }
+
+@media(max-width:768px){
+  .landing__content {
+    position: absolute;
+    bottom: -37px;
+    right: -9px;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
+
 .landing__content h4{
 
 }
 .landing__content h5{
   text-shadow: 2px 2px 2px #7e5aab;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; 
+}
 
-  
+@media(max-width:768px){
+  .landing__content h5{
+    margin-bottom: 0; 
+  }
   
 }
 
@@ -454,6 +473,13 @@ a {
   justify-content: center;
   flex-direction: column;
 }
+
+
+@media(max-width:768px){
+  .features__section .features__content ul{
+    padding-right: 2rem;
+  }
+}
 .features__section .features__content h3{
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -462,6 +488,12 @@ a {
   font-size: 1.4rem;
   margin-bottom: .7rem;
   position: relative;
+}
+
+@media(max-width:768px){
+  .features__section .features__content ul li{
+    font-size: 1.2rem;
+  }
 }
 
 .features__section .features__content ul li:before{
@@ -524,6 +556,14 @@ a {
   max-width: 43%;
   margin: 1rem auto;
   text-align: center;
+}
+
+
+@media(max-width:768px){
+  .payment__section  p{
+    max-width: 80%;
+  }
+  
 }
 
 .payment__wrapper{
@@ -633,6 +673,7 @@ video#myMovie{
   left: 10px;
   width: 60px;
   height: 60px;
+  z-index: 9999999999;
 }
 .whatsapp__contact img{
   width: 60px;
@@ -642,6 +683,10 @@ video#myMovie{
 
 
 /* Start Stores Section */
+
+.stores{
+  background-color: #343055;
+}
 .stores h3{
   color: #fff;
   font-size: 1.5rem;
@@ -651,8 +696,10 @@ video#myMovie{
 
 
 /* Start Form Section */
+
 .form__section{
 margin: 3rem 0;
+
 }
 .form__section .form__wrapper{
   max-width: 700px;
@@ -660,6 +707,8 @@ margin: 3rem 0;
   border: 5px solid rebeccapurple;
   padding: 1rem;
   border-radius: 2rem;
+  background: #3a2661ad;
+
 }
 .form__section .form__header {
 color: #fff;
@@ -675,7 +724,7 @@ margin-bottom: 1rem;
     flex-direction: column;
 }
 .form__body .form__content p{
-  color: #aaa5a5;
+  color: #a5a5a5;
   font-size: 1.2rem;
   text-align: center;
   
@@ -699,3 +748,34 @@ margin-bottom: 1rem;
   box-shadow: 0 0 0 0.25rem #7e5aab69;
 }
 /* End  Form Section */
+
+/* Start Footer Section */
+footer{
+  position: relative;
+}
+
+footer .footer{
+
+  color: #fff;
+  padding: 2rem 0;
+  border-top: 1px solid #fff;
+  position: relative;
+  
+}
+
+footer .footer h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+
+.footer__image{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: -99;
+  overflow: hidden;
+}
