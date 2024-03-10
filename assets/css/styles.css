@@ -752,6 +752,9 @@ margin-bottom: 1rem;
 /* Start Footer Section */
 footer{
   position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer .footer{
