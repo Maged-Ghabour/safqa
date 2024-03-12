@@ -412,7 +412,7 @@ a {
 @media(max-width:768px){
   .landing__content {
     position: absolute;
-    bottom: -37px;
+    bottom: -70px;
     right: -9px;
     color: #fff;
     padding: 1rem;
@@ -533,6 +533,12 @@ a {
   position: relative;
 
 
+}
+
+.payment__section p .text-main{
+  color: #ffa308;
+  font-weight: bold;
+  margin: 0 5px;
 }
 
 .payment__section .payment__header h2{
