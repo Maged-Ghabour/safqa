@@ -389,6 +389,14 @@ a {
   background-size:cover;
 
 }
+
+@media(max-width:768px){
+  .landing img{
+    margin-top: 3rem;
+  
+  }
+}
+
 .landing__content{
   position: absolute;
   bottom: 0;
@@ -444,6 +452,7 @@ a {
 
 /* Start Features Section */
 .features__section{
+  margin-top: 2rem;
 
 }
 
@@ -495,7 +504,7 @@ a {
 
 @media(max-width:768px){
   .features__section .features__content ul li{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -778,6 +787,7 @@ video#myMovie{
     animation-duration: 1.5s;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
+    z-index: 9999999999999;
 }
 
 .btn-whatsapp-pulse i{
@@ -807,6 +817,31 @@ video#myMovie{
   margin-bottom: 2rem;
 }
 /* End  Stores Section */
+
+
+/* Start Testimonails */
+.testimonails{
+
+}
+.testimonails h3{
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.testimonails  p{
+  line-height: 1.5;
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: .5rem;
+}
+.swiper-slide {
+  height: auto;
+}
+
+/* Start Testimonails */
+
 
 
 /* Start Form Section */
