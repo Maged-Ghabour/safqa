@@ -567,9 +567,7 @@ a {
     transform: translate(-50%, -50%);
 }
 .payment__section  p{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   font-size: 1rem;
   max-width: 43%;
   margin: 1rem auto 2rem auto;
@@ -904,6 +902,16 @@ margin-bottom: 1rem;
 .form-control:focus{
   box-shadow: 0 0 0 0.25rem #7e5aab69;
 }
+
+.submit-form{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  margin: .5rem 0;
+  font-size: .9rem;
+}
+
 /* End  Form Section */
 
 /* Start Footer Section */
