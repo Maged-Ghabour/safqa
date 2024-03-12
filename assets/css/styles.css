@@ -7,6 +7,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
+  --main-color:#f4f4f9;
   --black-color: hsl(220, 24%, 12%);
   --black-color-light: hsl(220, 24%, 15%);
   --black-color-lighten: hsl(220, 20%, 18%);
@@ -92,7 +93,7 @@ a {
 .nav__logo, 
 .nav__burger, 
 .nav__close {
-  color: var(--white-color);
+  color: var(--black-color);
 }
 .nav__logo img{
   max-width:90px;
@@ -166,7 +167,7 @@ a {
     width: 0;
   }
   .nav__list {
-    background-color: var(--black-color);
+    background-color: var(--main-color);
     padding-top: 1rem;
   }
   .nav__contact_us{
@@ -206,7 +207,7 @@ a {
 }
 
 .nav__link:hover {
-  background-color: var(--black-color-light);
+  background-color: hsl(0deg 0% 88.19%);
 }
 
 /* Show menu */
