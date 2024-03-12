@@ -77,7 +77,8 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ab95d394;
+  /* background-color: #ab95d394; */
+  background-color: #f4f4f9;
   box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
   z-index: 9999999999;
 }
@@ -201,6 +202,7 @@ a {
   justify-content: space-between;
   align-items: center;
   transition: background-color .3s;
+  color: #7e5aab;
 }
 
 .nav__link:hover {
@@ -305,7 +307,7 @@ a {
   }
 
   .nav {
-    height: calc(var(--header-height) + 2rem);
+    height: calc(var(--header-height) + 1rem);
     display: flex;
     justify-content: space-around;
   }
@@ -554,8 +556,9 @@ a {
   align-items: center;
   font-size: 1rem;
   max-width: 43%;
-  margin: 1rem auto;
+  margin: 1rem auto 2rem auto;
   text-align: center;
+
 }
 
 
@@ -570,6 +573,80 @@ a {
   margin: 0 auto;
   max-width: 992px;
 }
+
+.payment__wrapper .payment__content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.payment__wrapper .payment__content li{
+  position: relative;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.payment__wrapper .payment__content li span{
+  color: #9D92FB;
+}
+
+@media (max-width: 768px){
+  .payment__wrapper .payment__content ul {
+    padding-right: 2rem;
+}
+.payment__wrapper .payment__content li{
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+}
+
+
+.payment__wrapper .payment__content ul li::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/checked.png);
+    background-size: cover;
+    right: -25px;
+    top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment__wrapper .payment__content a{
+  width: fit-content;
+  border-radius: 8px;
+  padding: 0.3rem 1rem;
+}
+
+.payment__wrapper .payment__image{
+  max-width: 400px;
+}
+
+@media(max-width:768px){
+  .payment__wrapper .payment__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto 2rem auto ;
+    max-width: 250px;
+  }
+  
+}
+
+
+.payment__wrapper .payment__image img{
+  transition: all 0.6s;
+}
+
+.payment__wrapper .payment__image img:hover{
+transform: rotate(-20deg);
+}
+
+
 /* End  Section Payment */
 
 
@@ -683,23 +760,27 @@ video#myMovie{
 
 .btn-whatsapp-pulse {
 	background: #25d366;
-	color: white;
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	font-size: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 0;
-	height: 0;
-	padding: 35px;
-	text-decoration: none;
-	border-radius: 50%;
-	animation-name: pulse;
-	animation-duration: 1.5s;
-	animation-timing-function: ease-out;
-	animation-iteration-count: infinite;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: 0;
+    padding: 27px;
+    text-decoration: none;
+    border-radius: 50%;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+.btn-whatsapp-pulse i{
+  font-size: 2.1rem;
 }
 
 @keyframes pulse {
