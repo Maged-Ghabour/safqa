@@ -13,7 +13,7 @@
   --black-color-lighten: hsl(220, 20%, 18%);
   --white-color: #fff;
   --body-color: hsl(220, 100%, 97%);
-
+  --section-background: #ececec;
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "IBM Plex Sans Arabic", sans-serif;;
@@ -829,10 +829,14 @@ video#myMovie{
 .testimonails{
 
 }
+.testimonails .swiper-wrapper{
+
+
+}
 .testimonails h3{
   color: #fff;
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3.2rem;
 }
 
 .testimonails  p{
@@ -844,6 +848,47 @@ video#myMovie{
 }
 .swiper-slide {
   height: auto;
+}
+
+
+
+.testimonails .box {
+  padding: 20px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+  border-radius: 6px;
+  position: relative;
+  /* background-color: #886eab; */
+  background-color: #2e2051;
+  ;
+}
+.testimonails .box img {
+  position: absolute;
+  left: 50%;
+  top: -44px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 10px solid var(--section-background);
+  transform: translateX(-50%);
+}
+.testimonails .box h3 {
+  margin: 10px 0 10px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.testimonails .box .title {
+  color: #777;
+  margin-bottom: 10px;
+  display: block;
+}
+.testimonails .box .rate .filled {
+  color: #ffc107;
+}
+.testimonails .box p {
+  line-height: 1.5;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 /* Start Testimonails */
