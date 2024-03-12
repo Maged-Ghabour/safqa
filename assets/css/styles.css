@@ -981,6 +981,55 @@ footer .footer h3{
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  background: #fff;
+  color: #2e2051;
+  width: fit-content;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  
+}
+
+footer .footer .paltform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .footer .paltform img{
+  border-radius: 8px;
+}
+
+
+footer .about-us{
+  font-size: 1.1rem;
+}
+
+footer .about-us p
+{
+  background: #00000054;
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+footer .footer .social__media ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  margin-top: 2rem;
+}
+footer .footer .social__media ul li i{
+  font-size: 2rem;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+footer .footer .social__media ul li i:hover{
+  color: #ffa308;
+  transform: scale(1.05);
+  font-weight: bold;
 }
 
 
