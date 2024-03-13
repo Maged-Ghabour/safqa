@@ -1,74 +1,91 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
 
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <meta
+      name="description"
+      content="مؤسسة صفقة متخصصون في إنشاء المتاجر الالكترونية وصفحات الويب و تحسين محركات البحث"
+    />
+    <meta
+      name="keywords"
+      content="seo , salla , logo , web , سلة  , تصميم وانشاء المتاجر , وردبريس , تحسين محركات البحث"
+    />
 
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
-   <meta name="description"
-      content="مؤسسة صفقة متخصصون في إنشاء المتاجر الالكترونية وصفحات الويب و تحسين محركات البحث" />
-   <meta name="keywords"
-      content="seo , salla , logo , web , سلة  , تصميم وانشاء المتاجر , وردبريس , تحسين محركات البحث" />
-
-
-   <!--=============== REMIXICONS ===============-->
-   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
 
-   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-   <!-- =============== Bootstrap =============== -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- =============== Bootstrap =============== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
-   <!-- =========== AOS ====================== -->
-   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- =========== AOS ====================== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-   <!--=============== FontAwesome ===============-->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    <!--=============== FontAwesome ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <!--=============== CSS ===============-->
-   <link rel="stylesheet" href="assets/css/styles.css">
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-   <title>صفقة</title>
-</head>
+    <title>صفقة</title>
+  </head>
 
-<body>
-   <!--=============== HEADER ===============-->
-   <header class="header">
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
       <nav class="nav container">
-         <div class="nav__data">
-            <a href="#" class="nav__logo">
-               <img src="./assets/images/logo.png" alt="logo" loading="lazy">
-            </a>
+        <div class="nav__data">
+          <a href="#" class="nav__logo">
+            <img src="./assets/images/logo.png" alt="logo" loading="lazy" />
+          </a>
 
-            <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-menu-line nav__burger"></i>
-               <i class="ri-close-line nav__close"></i>
-            </div>
-         </div>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
 
-         <!--=============== NAV MENU ===============-->
-         <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-               <li><a href="#" class="nav__link">الرئيسية</a></li>
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#" class="nav__link">الرئيسية</a></li>
 
-               <li><a href="#features" class="nav__link">مميزتنا</a></li>
+            <li><a href="#features" class="nav__link">مميزتنا</a></li>
 
-               <!--=============== DROPDOWN 1 ===============-->
-               <!-- <li class="dropdown__item">
+            <!--=============== DROPDOWN 1 ===============-->
+            <!-- <li class="dropdown__item">
                      <div class="nav__link">
                         Analytics <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                      </div> -->
 
-               <!-- <ul class="dropdown__menu">
+            <!-- <ul class="dropdown__menu">
                         <li>
                            <a href="#" class="dropdown__link">
                               <i class="ri-pie-chart-line"></i> Overview
@@ -81,8 +98,8 @@
                            </a>
                         </li> -->
 
-               <!--=============== DROPDOWN SUBMENU ===============-->
-               <!-- <li class="dropdown__subitem">
+            <!--=============== DROPDOWN SUBMENU ===============-->
+            <!-- <li class="dropdown__subitem">
                            <div class="dropdown__link">
                               <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
                            </div>
@@ -110,10 +127,10 @@
                      </ul>
                   </li> -->
 
-               <li><a href="#stores" class="nav__link">متاجرنا</a></li>
+            <li><a href="#stores" class="nav__link">متاجرنا</a></li>
 
-               <!--=============== DROPDOWN 2 ===============-->
-               <!-- <li class="dropdown__item">
+            <!--=============== DROPDOWN 2 ===============-->
+            <!-- <li class="dropdown__item">
                      <div class="nav__link">
                         Users <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                      </div>
@@ -138,410 +155,408 @@
                         </li>
                      </ul>
                   </li> -->
+          </ul>
+        </div>
 
-            </ul>
-
-
-         </div>
-
-         <div class="nav__contact_us">
-            <a href="https://wa.me/966562484827" class="btn-contact__us">تواصل معنا</a>
-         </div>
+        <div class="nav__contact_us">
+          <a href="https://wa.me/966562484827" class="btn-contact__us"
+            >تواصل معنا</a
+          >
+        </div>
       </nav>
-   </header>
+    </header>
 
-   <div class="landing">
-      <img class="img-fluid" src="./assets/images/landing.png" alt="" loading="lazy">
+    <div class="landing">
+      <img
+        class="img-fluid"
+        src="./assets/images/landing.png"
+        alt=""
+        loading="lazy"
+      />
       <div class="landing__content">
-         <h4>صفقة لانشاء المتاجر الالكترونية</h4>
-         <h5>خليك رابح مع صفقة</h5>
-         <a class="btn-contact__us" href="https://wa.me/966562484827">تواصل معنا</a>
+        <h4>صفقة لانشاء المتاجر الالكترونية</h4>
+        <h5>خليك رابح مع صفقة</h5>
+        <a class="btn-contact__us" href="https://wa.me/966562484827"
+          >تواصل معنا</a
+        >
       </div>
-   </div>
+    </div>
 
-
-   <div class="features__section" id="features">
+    <div class="features__section" id="features">
       <div class="container">
-         <div class="features__wrapper">
-            <div class="img__content " data-aos="fade-left">
-               <img class="img-fluid" src="./assets/images/features_image.png" alt="features__image" loading="lazy">
-            </div>
-            <div class="features__content" data-aos="fade-right">
-               <h3>تفاصيل باقة الإنشاء</h3>
-               <ul>
-                  <li>تصميم هوية تجارية
-                  </li>
-                  <li>حجز دومين فريد بالموقع
-                  </li>
-                  <li>
-                     ربط الموقع بوابات الدفع و شركات الشحن
-                  </li>
-                  <li>
-                     تصميم 5 بنرات للمتجر
-
-                  </li>
-                  <li>
-                     الربط مع حسابات التواصل الاجتماعي
-
-                  </li>
-                  <li>
-                     ربط الموقع مع منصة Drop Shipping
-
-                  </li>
-                  <li>
-                     دعم شهر مجاني للمتجر
-
-                  </li>
-                  <li>
-                     انشاء صفحات (سياسة الاسترجاع - من نحن - الخصوصية وغيرها)
-                  </li>
-                  <li>
-                     مدة العمل 7 أيام بعد اعتماد التصميم
-
-                  </li>
-                  <li>
-                     اضافة 100 منتج على الموقع
-
-                  </li>
-                  <li>
-                     تهيئة صفحات السوشيال ميديا مزودة ب 9 تصميمات احترافية
-                  </li>
-               </ul>
-            </div>
-         </div>
+        <div class="features__wrapper">
+          <div class="img__content" data-aos="fade-left">
+            <img
+              class="img-fluid"
+              src="./assets/images/features_image.png"
+              alt="features__image"
+              loading="lazy"
+            />
+          </div>
+          <div class="features__content" data-aos="fade-right">
+            <h3>تفاصيل باقة الإنشاء</h3>
+            <ul>
+              <li>تصميم هوية تجارية</li>
+              <li>حجز دومين فريد بالموقع</li>
+              <li>ربط الموقع بوابات الدفع و شركات الشحن</li>
+              <li>تصميم 5 بنرات للمتجر</li>
+              <li>الربط مع حسابات التواصل الاجتماعي</li>
+              <li>ربط الموقع مع منصة Drop Shipping</li>
+              <li>دعم شهر مجاني للمتجر</li>
+              <li>انشاء صفحات (سياسة الاسترجاع - من نحن - الخصوصية وغيرها)</li>
+              <li>مدة العمل 7 أيام بعد اعتماد التصميم</li>
+              <li>اضافة 100 منتج على الموقع</li>
+              <li>تهيئة صفحات السوشيال ميديا مزودة ب 9 تصميمات احترافية</li>
+            </ul>
+          </div>
+        </div>
       </div>
-   </div>
+    </div>
 
-   <div class="payment__section">
+    <div class="payment__section">
       <div class="container">
-         <div class="payment__header" data-aos="zoom-in">
-            <h2>طرق السداد</h2>
-         </div>
-         <p>
-            مؤسسة صفقة للتسويق الرقمي تضمن لك
-            <span class="text-main">عقد موثق</span> به طرق سداد مرنة علي دفعتين
-         </p>
+        <div class="payment__header" data-aos="zoom-in">
+          <h2>طرق السداد</h2>
+        </div>
+        <p>
+          مؤسسة صفقة للتسويق الرقمي تضمن لك
+          <span class="text-main">عقد موثق</span> به طرق سداد مرنة علي دفعتين
+        </p>
       </div>
 
       <div class="payment__wrapper">
-         <div class="container">
-            <div class="row">
-               <div class="col-12 order-2 col-md-6 order-md-1 payment__content" data-aos="zoom-in-up">
-                  <ul>
-                     <li>يتم دفع <span>50%</span> عند <span>التعاقد</span></li>
-                     <li>يتم دفع <span>50%</span> بعد تسليم <span>المتجر</span> بالكامل</li>
-                  </ul>
-                  <a class="btn-contact__us" href="">تواصل معنا</a>
-               </div>
-               <div class="col-12 order-1 col-md-6 order-md-2 payment__image" data-aos="flip-left">
-                  <img class="img-fluid" src="./assets/images/safqa_payment.png" alt="payment">
-               </div>
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 order-2 col-md-6 order-md-1 payment__content"
+              data-aos="zoom-in-up"
+            >
+              <ul>
+                <li>يتم دفع <span>50%</span> عند <span>التعاقد</span></li>
+                <li>
+                  يتم دفع <span>50%</span> بعد تسليم <span>المتجر</span> بالكامل
+                </li>
+              </ul>
+              <a class="btn-contact__us" href="">تواصل معنا</a>
             </div>
-         </div>
+            <div
+              class="col-12 order-1 col-md-6 order-md-2 payment__image"
+              data-aos="flip-left"
+            >
+              <img
+                class="img-fluid"
+                src="./assets/images/safqa_payment.png"
+                alt="payment"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-   </div>
+    </div>
 
-
-   <div class="video__section">
+    <div class="video__section">
       <div class="video__content" data-aos="zoom-out-up">
-         <video id="myMovie" style="max-width: 100%; cursor: pointer;" autoplay loop
-            poster="./assets/images/poster.png">
-            <source src="./assets/videos/1000 ريال.mp4" />
-         </video>
+        <video
+          id="myMovie"
+          style="max-width: 100%; cursor: pointer"
+          autoplay
+          loop
+          poster="./assets/images/poster.png"
+        >
+          <source src="./assets/videos/1000 ريال.mp4" />
+        </video>
 
-         <div class="polygons">
-            <span><img src="./assets/images/polygon1.png" alt="" loading="lazy"></span>
-            <span><img src="./assets/images/polygon2.png" alt="" loading="lazy"></span>
-            <span><img src="./assets/images/polygon3.png" alt="" loading="lazy"></span>
-            <span><img src="./assets/images/polygon4.png" alt="" loading="lazy"></span>
-            <span><img src="./assets/images/polygon5.png" alt="" loading="lazy"></span>
-         </div>
+        <div class="polygons">
+          <span
+            ><img src="./assets/images/polygon1.png" alt="" loading="lazy"
+          /></span>
+          <span
+            ><img src="./assets/images/polygon2.png" alt="" loading="lazy"
+          /></span>
+          <span
+            ><img src="./assets/images/polygon3.png" alt="" loading="lazy"
+          /></span>
+          <span
+            ><img src="./assets/images/polygon4.png" alt="" loading="lazy"
+          /></span>
+          <span
+            ><img src="./assets/images/polygon5.png" alt="" loading="lazy"
+          /></span>
+        </div>
       </div>
-   </div>
+    </div>
 
-
-   <!-- Start Stores Section -->
-   <div class="stores py-4" data-aos="fade-up" id="stores">
+    <!-- Start Stores Section -->
+    <div class="stores py-4" data-aos="fade-up" id="stores">
       <div class="container">
-         <div class="swiper p-3 m-2">
-            <div class="slide-container swiper content text-center">
-               <h3>متاجر نفخر بإنجازها</h3>
-               <div class="rounded swiper-wrapper">
+        <div class="swiper p-3 m-2">
+          <div class="slide-container swiper content text-center">
+            <h3>متاجر نفخر بإنجازها</h3>
+            <div class="rounded swiper-wrapper">
+              <a href="#" class="swiper-slide">
+                <div class="teacher__image rounded">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/سوق الأجهزة.png"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+              </a>
 
-                  <a href="#" class="swiper-slide">
-                     <div class="teacher__image  rounded">
-                        <img class="img-fluid" src="assets/images/سوق الأجهزة.png" alt="" loading="lazy" />
+              <a href="#" class="swiper-slide">
+                <div class="teacher__image rounded">
+                  <img class="img-fluid" src="assets/images/qTec.png" alt="" />
+                </div>
+              </a>
+              <a href="#" class="swiper-slide">
+                <div class="teacher__image rounded">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/أوراقي.png"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+              </a>
 
-                     </div>
+              <a href="#" class="swiper-slide">
+                <div class="teacher__image rounded">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/الهنوف.png"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+              </a>
 
-                  </a>
+              <a href="#" class="swiper-slide">
+                <div class="teacher__image rounded">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/ساعات.png"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+              </a>
 
-
-                  <a href="#" class="swiper-slide">
-                     <div class="teacher__image  rounded ">
-                        <img class="img-fluid" src="assets/images/qTec.png" alt="" />
-
-                     </div>
-
-                  </a>
-                  <a href="#" class="swiper-slide">
-                     <div class="teacher__image  rounded ">
-                        <img class="img-fluid" src="assets/images/أوراقي.png" alt="" loading="lazy" />
-
-                     </div>
-
-                  </a>
-
-                  <a href="#" class="swiper-slide">
-                     <div class="teacher__image  rounded ">
-                        <img class="img-fluid" src="assets/images/الهنوف.png" alt="" loading="lazy" />
-
-                     </div>
-
-                  </a>
-
-                  <a href="#" class="swiper-slide">
-                     <div class="teacher__image  rounded ">
-                        <img class="img-fluid" src="assets/images/ساعات.png" alt="" loading="lazy" />
-
-                     </div>
-
-                  </a>
-
-                  <a href="#" class="swiper-slide">
-                     <div class="teacher__image  rounded ">
-                        <img class="img-fluid" src="assets/images/سعودي.png" alt="" loading="lazy" />
-
-                     </div>
-
-                  </a>
-
-
-
-
-
-
-
-               </div>
+              <a href="#" class="swiper-slide">
+                <div class="teacher__image rounded">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/سعودي.png"
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+              </a>
             </div>
+          </div>
 
-            <!-- <div class="swiper-pagination swiper-pagination7"></div> -->
-         </div>
-         <!-- Swipper Arrows  -->
-         <!-- <div class="swiper-button-next swiper-navBtn"></div>
+          <!-- <div class="swiper-pagination swiper-pagination7"></div> -->
+        </div>
+        <!-- Swipper Arrows  -->
+        <!-- <div class="swiper-button-next swiper-navBtn"></div>
          <div class="swiper-button-prev swiper-navBtn"></div> -->
       </div>
-   </div>
-   <!-- End Stores Section -->
+    </div>
+    <!-- End Stores Section -->
 
+    <!-- Start Form Section -->
 
-
-
-   <!-- Start Form Section -->
-
-
-   <div class="form__section">
+    <div class="form__section">
       <div class="form__wrapper" data-aos="fade-up" data-aos-duration="1000">
-         <div class="form__header">
-            سجل بياناتك ونتواصل معك
-         </div>
-         <div class="form__body">
-            <div class="container">
-               <div class="row">
-                  <div class="col-12 col-md-6">
-                     <form action="#">
-                        <div class="mb-2">
-                           <label class="form-label" for="name">الاسم</label>
-                           <input class="form-control" type="text" id="name">
-                        </div>
-                        <div class="mb-2">
-                           <label class="form-label" for="phone">رقم الجوال</label>
-                           <input class="form-control" type="text" id="phone">
-                        </div>
-                        <div class="mb-2">
-                           <label class="form-label" for="comment">اترك تعليق</label>
-                           <textarea class="form-control" name="" id="comment" cols="30" rows="5"></textarea>
-                        </div>
-
-                        <button class="submit-form">ارسال</button>
-                     </form>
+        <div class="form__header">سجل بياناتك ونتواصل معك</div>
+        <div class="form__body">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <form action="#">
+                  <div class="mb-2">
+                    <label class="form-label" for="name">الاسم</label>
+                    <input class="form-control" type="text" id="name" />
                   </div>
-                  <div class="col-12 col-md-6 form__content">
-                     <p>فقط برجاء ملىء بعض البيانات البسيطة ويقوم أحد مساعدينك من صفقة بالتواصل معك في أسرع وقت</p>
-
-                     <a class="btn-contact__us" href="https://wa.me/966562484827">تواصل معنا</a>
+                  <div class="mb-2">
+                    <label class="form-label" for="phone">رقم الجوال</label>
+                    <input class="form-control" type="text" id="phone" />
                   </div>
-               </div>
+                  <div class="mb-2">
+                    <label class="form-label" for="comment">اترك تعليق</label>
+                    <textarea
+                      class="form-control"
+                      name=""
+                      id="comment"
+                      cols="30"
+                      rows="5"
+                    ></textarea>
+                  </div>
+
+                  <button class="submit-form">ارسال</button>
+                </form>
+              </div>
+              <div class="col-12 col-md-6 form__content">
+                <p>
+                  فقط برجاء ملىء بعض البيانات البسيطة ويقوم أحد مساعدينك من صفقة
+                  بالتواصل معك في أسرع وقت
+                </p>
+
+                <a class="btn-contact__us" href="https://wa.me/966562484827"
+                  >تواصل معنا</a
+                >
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-   </div>
+    </div>
 
-   <!-- End  Form Section -->
+    <!-- End  Form Section -->
 
-
-   <!-- Start Testimonials Section -->
-   <div class="testimonails py-4" data-aos="fade-up">
+    <!-- Start Testimonials Section -->
+    <div class="testimonails py-4" data-aos="fade-up">
       <div class="container">
-         <div class="swiper p-3 m-2">
-            <div class="slide-container swiper1 content text-center">
-               <h3>اراء عملاؤنا</h3>
-               <div class="rounded swiper-wrapper">
+        <div class="swiper p-3 m-2">
+          <div class="slide-container swiper1 content text-center">
+            <h3>اراء عملاؤنا</h3>
+            <div class="rounded swiper-wrapper">
+              <a href="" class="box swiper-slide">
+                <img src="./assets/images/default.png" alt="" />
+                <h3>محمد عبد الله الملحم</h3>
+                <div class="rate">
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                </div>
+                <p>
+                  مشكور علي جهودكم والله ما قصرتم ما كنت متوقع كل هذه المبيعات
+                  ابي ادخال الاجهزة الصغيرة في الحملات الإعلانية الفترة القادمة
+                </p>
+              </a>
 
-                 
+              <a href="" class="box swiper-slide">
+                <img src="./assets/images/default.png" alt="" />
+                <h3>مني الفراج</h3>
+                <div class="rate">
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                </div>
+                <p>
+                  والله مبهورة جدا بشكل المتجر اكثر من رائع 😍 هنبدأ الحين
+                  في الإعلانات ؟
+                </p>
+              </a>
 
-
-                     <a href="" class="box swiper-slide">
-                        <img src="./assets/images/default.png" alt="">
-                        <h3>محمد عبد الله الملحم</h3>
-                        <div class="rate">
-                           <i class="filled fas fa-star"></i>
-                           <i class="filled fas fa-star"></i>
-                           <i class="filled fas fa-star"></i>
-                           <i class="filled fas fa-star"></i>
-                           <i class="filled fas fa-star"></i>
-                           
-                        </div>
-                        <p>مشكور علي جهودكم والله ما قصرتم ما كنت متوقع كل هذه المبيعات
-                           ابي ادخال الاجهزة الصغيرة في الحملات الإعلانية الفترة القادمة</p>
-                     </a>
-
-
-
-             
-
-
-                 
-
-
-                     <a href="" class="box swiper-slide">
-                        <img src="./assets/images/default.png" alt="">
-                        <h3>مني الفراج
-                        </h3>
-                        <div class="rate">
-                           <i class="filled fas fa-star"></i>
-                           <i class="filled fas fa-star"></i>
-                           <i class="filled fas fa-star"></i>
-                           <i class="filled fas fa-star"></i>
-                           <i class="filled fas fa-star"></i>
-                           
-                        </div>
-                        <p>والله مبهورة جدا بشكل المتجر اكثر من رائع 😍
-                           هنبدأ الحين في الإعلانات ؟</p>
-                     </a>
-
-
-
-                
-
-
-
-               
-
-
-                     <a href="" class="box swiper-slide">
-                        <img src="./assets/images/default.png" alt="">
-                        <h3>محمد علي البراك </h3>
-                        <div class="rate">
-                           <i class="filled fas fa-star"></i>
-                           <i class="filled fas fa-star"></i>
-                           <i class="filled fas fa-star"></i>
-                           <i class="filled fas fa-star"></i>
-                           <i class="filled fas fa-star"></i>
-                        </div>
-                        <p>يعطيكم العافية المتجر روعة
-                           ايش تكلفة باقات التسويق الشاملة ؟</p>
-                     </a>
-
-
-
-             
-               </div>
+              <a href="" class="box swiper-slide">
+                <img src="./assets/images/default.png" alt="" />
+                <h3>محمد علي البراك</h3>
+                <div class="rate">
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                </div>
+                <p>
+                  يعطيكم العافية المتجر روعة ايش تكلفة باقات التسويق الشاملة ؟
+                </p>
+              </a>
             </div>
+          </div>
 
-            <!-- <div class="swiper-pagination swiper-pagination7"></div> -->
-         </div>
-         <!-- Swipper Arrows  -->
-         <!-- <div class="swiper-button-next swiper-navBtn"></div>
+          <!-- <div class="swiper-pagination swiper-pagination7"></div> -->
+        </div>
+        <!-- Swipper Arrows  -->
+        <!-- <div class="swiper-button-next swiper-navBtn"></div>
          <div class="swiper-button-prev swiper-navBtn"></div> -->
       </div>
-   </div>
+    </div>
 
-   <!-- End Testimonials Section -->
+    <!-- End Testimonials Section -->
 
-   <!-- Start Footer  -->
+    <!-- Start Footer  -->
 
-   <footer>
+    <footer>
       <div class="footer container row">
-         <div class="col-12 col-md-4 about-us">
-            <h3>من نحن</h3>
-            <p>شركه تسويق سعودية متخصصة في انشاءات المتاجر الإلكترونية وخدمات التسويق،  ساعدنا الكثير من المتاجر الإلكترونية في تحقيق مبيعات كبيرة من خلال خطط تسويقية احترافية</p>
-         </div>
-         <div class="col-6 col-md-4 paltform">
-            <h3>متجرنا على منصة الأعمال
-            </h3>
-            <a href="#">
-               <img class="img-fluid" src="./assets/images/باركود.png" alt="">
-            </a>
-         </div>
-         <div class="col-6 col-md-4 social__media">
-            <h3> وسائل التواصل </h3>
-            <ul>
-               <li>
-                  <a href="#">
-                     <i class="fa-brands fa-snapchat"></i>
-                  </a>
-               </li>
-               <li>
-                  <a href="https://wa.me/966562484827">
-                     <i class="fa-brands fa-whatsapp"></i>
-                  </a>
-               </li>
-               <li>
-                  <a href="https://www.instagram.com/safqa_agency?igsh=MWVwN2xkdWJlcHg1eg%3D%3D&utm_source=qr ">
-                     <i class="fa-brands fa-instagram"></i>
-                  </a>
-               </li>
-               <li>
-                  <a href="https://www.tiktok.com/@safqa_agency?_t=8kcr33be8jG&_r=1">
-                     <i class="fa-brands fa-tiktok"></i>
-                  </a>
-               </li>
-            </ul>
-         </div>
+        <div class="col-12 col-md-4 about-us">
+          <h3>من نحن</h3>
+          <p>
+            شركه تسويق سعودية متخصصة في انشاءات المتاجر الإلكترونية وخدمات
+            التسويق، ساعدنا الكثير من المتاجر الإلكترونية في تحقيق مبيعات كبيرة
+            من خلال خطط تسويقية احترافية
+          </p>
+        </div>
+        <div class="col-12 col-md-4 paltform">
+          <h3>متجرنا على منصة الأعمال</h3>
+          <a href="#">
+            <img class="img-fluid" src="./assets/images/باركود.png" alt="" />
+          </a>
+        </div>
+        <div class="col-12 col-md-4 social__media">
+          <h3>وسائل التواصل</h3>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-snapchat"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/966562484827">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/safqa_agency?igsh=MWVwN2xkdWJlcHg1eg%3D%3D&utm_source=qr "
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.tiktok.com/@safqa_agency?_t=8kcr33be8jG&_r=1"
+              >
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div class="footer__image">
-         <img class="img-fluid" src="./assets/images/footerCover.png" alt="" loading="lazy">
+        <img
+          class="img-fluid"
+          src="./assets/images/footerCover.png"
+          alt=""
+          loading="lazy"
+        />
       </div>
+    </footer>
 
-   </footer>
-
-
-
-
-   <a href="https://wa.me/966562484827" class="btn-whatsapp-pulse">
+    <a href="https://wa.me/966562484827" class="btn-whatsapp-pulse">
       <i class="fab fa-whatsapp"></i>
-   </a>
+    </a>
 
-
-
-
-   <!-- ================ Bootstrap =========== -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <!-- ================ Bootstrap =========== -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
 
-   <!--===============   AOS   ============== -->
-   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-   <script>
+    <!--===============   AOS   ============== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
       AOS.init();
-   </script>
-   <!--=============== MAIN JS ===============-->
-   <script src="assets/js/swiper.js"></script>
-   <script src="assets/js/main.js"></script>
-
-
-</body>
-
+    </script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
