@@ -890,9 +890,6 @@ video#myMovie {
 /* Start Footer Section */
 footer {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 footer .footer {
@@ -900,6 +897,7 @@ footer .footer {
   padding: 2rem 0;
   border-top: 1px solid #fff;
   position: relative;
+  border-bottom: 1px solid #fff;
 }
 
 footer .footer h3 {
@@ -907,10 +905,8 @@ footer .footer h3 {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  background: #fff;
-  color: #2e2051;
+  color: #fff;
   width: fit-content;
-  margin: 1rem auto;
   padding: 0.5rem;
   border-radius: 8px;
   text-align: center;
@@ -922,19 +918,36 @@ footer .footer .paltform {
   align-items: center;
   flex-direction: column;
 }
+footer .footer .paltform h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 0.3rem;
+}
 
 footer .footer .paltform img {
   border-radius: 8px;
+  max-width: 250px;
 }
 
+@media (max-width: 768px) {
+  footer .footer .paltform img {
+    max-width: 185px;
+  }
+}
 footer .about-us {
   font-size: 1.1rem;
 }
 
 footer .about-us p {
-  background: #00000054;
   padding: 0.5rem;
   border-radius: 7px;
+}
+footer .footer .social__media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 footer .footer .social__media ul {
   display: flex;
@@ -981,4 +994,13 @@ footer .footer .social__media ul li i:hover {
   footer .social__media ul {
     padding: 0;
   }
+}
+
+.footer__bottom {
+  padding: 1rem;
+  margin-bottom: 0;
+}
+.footer__bottom p {
+  margin-bottom: 0;
+  color: #fff;
 }
